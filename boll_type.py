@@ -3,6 +3,8 @@ a = 3 != 5
 b = 5 == 5
 b_1 = 5 >= 5
 b_2 = 5 <= 5
+b_3 = bool(5 + 5)
+b_4 = bool(5 / 5)
 
 c = 3 < 4 != False  # Am I wrong here?
 
@@ -20,4 +22,4 @@ empty_str = bool('')
 example = 10 - 1
 result_2 = empty_str == example
 
-print(a, b, b_1, b_2, c, line_1, line_2, line_3, line_4, line_5, result, result_2, sep='\n')
+print(a, b, b_1, b_2, b_3, b_4, c, line_1, line_2, line_3, line_4, line_5, result, result_2, sep='\n')
