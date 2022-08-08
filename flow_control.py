@@ -4,28 +4,30 @@ calc_option = input('Choose operation, please ')
 
 if calc_option == '+':
     if num_1.isdigit() and num_2.isdigit():
-        print(int(num_1) + int(num_2))
+        result = int(num_1) + int(num_2)
     else:
-        print(float(num_1) + float(num_2))
+        result = float(num_1) + float(num_2)
 elif calc_option == '-':
     if num_1.isdigit() and num_2.isdigit():
-        print(int(num_1) - int(num_2))
+        result = int(num_1) - int(num_2)
     else:
-        print(float(num_1) - float(num_2))
+        result = float(num_1) - float(num_2)
 elif calc_option == '*':
     if num_1.isdigit() and num_2.isdigit():
-        print(int(num_1) * int(num_2))
+        result = int(num_1) * int(num_2)
     else:
-        print(float(num_1) * float(num_2))
+        result = float(num_1) * float(num_2)
 elif calc_option == '/':
     if num_1.isdigit() and num_2.isdigit():
-        print(int(num_1) / int(num_2))
+        result = int(num_1) / int(num_2)
     else:
-        print(float(num_1) / float(num_2))
+        result = float(num_1) / float(num_2)
 elif calc_option == '**':
     if num_1.isdigit() and num_2.isdigit():
-        print(int(num_1) ** int(num_2))
+        result = int(num_1) ** int(num_2)
     else:
-        print(float(num_1) ** float(num_2))
+        result = float(num_1) ** float(num_2)
 else:
     print('Wrong operation. You can try only +, -, *, /, **')
+
+print(result)
